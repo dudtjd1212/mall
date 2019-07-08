@@ -51,7 +51,7 @@
 					<i class="fas fa-thumbs-up"></i>
 					</li>
 					<li>
-					<a href="/mall/item/addItemform.jsp">게시글등록</a>
+					<a href="/mall/board/addBoardform.jsp">게시들 등록</a>
 					<i class="fas fa-thumbs-up"></i>
 					</li>
 				</ul>
