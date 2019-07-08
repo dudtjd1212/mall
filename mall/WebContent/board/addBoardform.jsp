@@ -55,7 +55,7 @@
 					<h1>Hello my mall</h1>
 					<p>게시판입니다.</p>
 				</div>
-				<form method="post" action="BoardWriteAction.bo" name="boardForm"
+				<form method="post" action="#" name="boardForm"
 					enctype="multipart/form-data">
 					<input type="hidden" name="board_id"
 						value="${sessionScope.sessionID}">
