@@ -42,6 +42,18 @@
 					<a href="/mall/member/addMemberform.jsp ">회원가입</a>
 					<i class="fas fa-thumbs-up"></i>
 					</li>
+					<li>
+					<a href="/mall/member/LoginForm.jsp">로그인</a>
+					<i class="fas fa-thumbs-up"></i>
+					</li>
+					<li>
+					<a href="/mall/item/addItemform.jsp">상품등록</a>
+					<i class="fas fa-thumbs-up"></i>
+					</li>
+					<li>
+					<a href="/mall/item/addItemform.jsp">게시글등록</a>
+					<i class="fas fa-thumbs-up"></i>
+					</li>
 				</ul>
 			</div>
 			<div class="col-sm-9">
