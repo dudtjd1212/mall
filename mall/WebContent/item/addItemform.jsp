@@ -37,16 +37,16 @@
 		<div class="row">
 			<div class="col-sm-3 sidebar-bg">
 				<ul>
-					<li><a href="/mall/index.jsp">홈으로</a> <i
-						class="fas fa-thumbs-up"></i></li>
-					<li><a href="/mall/member/addMemberform.jsp ">회원가입</a> <i
-						class="fas fa-thumbs-up"></i></li>
-					<li><a href="/mall/member/LoginForm.jsp">로그인</a> <i
-						class="fas fa-thumbs-up"></i></li>
-					<li><a href="/mall/item/addItemform.jsp">상품등록</a> <i
-						class="fas fa-thumbs-up"></i></li>
-					<li><a href="/mall/item/addItemform.jsp">게시글등록</a> <i
-						class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/index.jsp">홈으로</a>
+					 <i class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/member/addMemberform.jsp ">회원가입</a>
+					 <i	class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/member/LoginForm.jsp">로그인</a>
+					 <i	class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/item/addItemform.jsp">상품등록</a>
+					 <i	class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/board/addBoardform.jsp">게시글등록</a>
+					 <i class="fas fa-thumbs-up"></i></li>
 				</ul>
 			</div>
 			<div class="col-sm-9">
@@ -59,18 +59,18 @@
 					<div class="inputArea"></div>
 
 					<div class="inputArea">
-						<label for="gdsName">상품명</label> <input type="text" id="gdsName"
-							name="gdsName" />
+						<label for="gdsName">상품명</label>
+						 <input type="text" id="gdsName"name="gdsName" />
 					</div>
 
 					<div class="inputArea">
-						<label for="gdsPrice">상품가격</label> <input type="text"
-							id="gdsPrice" name="gdsPrice" />
+						<label for="gdsPrice">상품가격</label>
+						<input type="text" id="gdsPrice" name="gdsPrice" />
 					</div>
 
 					<div class="inputArea">
-						<label for="gdsStock">상품수량</label> <input type="text"
-							id="gdsStock" name="gdsStock" />
+						<label for="gdsStock">상품수량</label>
+						<input type="text" id="gdsStock" name="gdsStock" />
 					</div>
 
 					<div class="inputArea">

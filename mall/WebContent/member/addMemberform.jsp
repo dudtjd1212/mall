@@ -32,8 +32,16 @@
 		<div class="row">
 			<div class="col-sm-3 sidebar-bg">
 				<ul>
-					<li><a href="/mall/index.jsp">홈으로</a></li>
-					<li><a href="/mall/member/addMemberform.jsp">회원가입</a></li>
+					<li><a href="/mall/index.jsp">홈으로</a>
+					 <i class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/member/addMemberform.jsp ">회원가입</a>
+					 <i	class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/member/LoginForm.jsp">로그인</a>
+					 <i	class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/item/addItemform.jsp">상품등록</a>
+					 <i	class="fas fa-thumbs-up"></i></li>
+					<li><a href="/mall/board/addBoardform.jsp">게시글등록</a>
+					 <i class="fas fa-thumbs-up"></i></li>
 				</ul>
 			</div>
 			<div class="col-sm-9">
@@ -63,30 +71,25 @@
 						<label for="inputMobile">휴대폰 번호</label> <input type="tel"
 							class="form-control" id="inputMobile"
 							placeholder="휴대폰번호를 입력해 주세요">
-					</div>
-					<div class="form-group">
-						<label for="inputtelNO">사무실 번호</label> <input type="tel"
-							class="form-control" id="inputtelNO" placeholder="사무실번호를 입력해 주세요">
-					</div>
 
-					<div class="form-group">
-						<label>약관 동의</label>
-						<div data-toggle="buttons">
-							<label class="btn btn-primary active"> <span
-								class="fa fa-check"></span> <input id="agree" type="checkbox"
-								autocomplete="off" checked>
-							</label> <a href="#">이용약관</a>에 동의합니다.
+						<div class="form-group">
+							<label>약관 동의</label>
+							<div data-toggle="buttons">
+								<label class="btn btn-primary active"> <span
+									class="fa fa-check"></span> <input id="agree" type="checkbox"
+									autocomplete="off" checked>
+								</label> <a href="#">이용약관</a>에 동의합니다.
+							</div>
 						</div>
-					</div>
 
-					<div class="form-group text-center">
-						<button type="submit" id="join-submit" class="btn btn-primary">
-							회원가입<i class="fa fa-check spaceLeft"></i>
-						</button>
-						<button type="submit" class="btn btn-warning">
-							가입취소<i class="fa fa-times spaceLeft"></i>
-						</button>
-					</div>
+						<div class="form-group text-center">
+							<button type="submit" id="join-submit" class="btn btn-primary">
+								회원가입<i class="fa fa-check spaceLeft"></i>
+							</button>
+							<button type="submit" class="btn btn-warning">
+								가입취소<i class="fa fa-times spaceLeft"></i>
+							</button>
+						</div>
 				</form>
 			</div>
 		</div>
